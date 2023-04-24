@@ -53,17 +53,17 @@ body {
 
 /* set a background */
 .destination__hawaii {
-    background-image: url(../Assets/Images/hawaii.jpg);
+    background-image: url(../assets/images/hawaii.jpg);
     background-size: cover;
     background-position: center;
 }
 .destination__iceland {
-    background-image: url(../Assets/Images/iceland.jpg);
+    background-image: url(../assets/images/iceland.jpg);
     background-size: cover;
     background-position: center;
 }
 .destination__greece {
-    background-image: url(../Assets/Images/greece.jpg);
+    background-image: url(../assets/images/greece.jpg);
     background-size: cover;
     background-position: center;
 }
