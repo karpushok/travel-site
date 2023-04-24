@@ -1,0 +1,295 @@
+/* body settings */
+body {
+    margin: 0;
+    font-family: Verdana, Arial, sans-serif;
+}
+/* navigation bar settings */
+.navigation-bar {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4rem;
+}
+.navigation-link {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+.navigation-link__item {
+    text-decoration: none;
+    margin-right: 2rem;
+    color: #335576;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+.navigation-bar__logo {
+    text-decoration: none;
+    color: #335576;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    font-size: 2rem;
+    font-weight: 800;   
+}
+/* current page underline */
+#current__page {
+    border-bottom: 3px solid #DB7A4E;
+}
+/* hover settings */
+.navigation-link__item:hover {
+    border-bottom: 3px solid #DB7A4E;
+    color: #DB7A4E;
+}
+
+/* main settings */
+.main-destinations {
+    margin-top: 4rem;
+    height: 90vh;
+}
+
+/* set a background */
+.destination__hawaii {
+    background-image: url(../Assets/Images/hawaii.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.destination__iceland {
+    background-image: url(../Assets/Images/iceland.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.destination__greece {
+    background-image: url(../Assets/Images/greece.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.destinations__cards {
+    display: block;
+    justify-content: space-between;
+    background-color:#FFFFFF;
+    text-align: center;   
+    width: 18rem;
+    height: 28rem;
+    margin: 3rem 2rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    font-size: 1.2rem;
+}
+.cards__options {
+    margin-top: 2rem;
+    background-color:#FEFAF5;
+    width: 16rem;
+    height: 3rem;
+    margin-left: 1rem;
+    align-items: start;
+    padding-top: 1rem;
+}
+.cards__header {
+    border-bottom: 2px solid black;
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+    font-weight: 800;
+    width: 16rem;
+    margin-left: 1rem;
+}
+.destinations__items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.destinations__title {
+    font-size: 5rem;
+    padding-left: 5vw;
+    padding-top: 3rem;
+    color:#FFFFFF;
+}
+
+/* footer settings */
+.footer-section {
+    height: 10rem;
+    background-color: #FEFAF5;
+}
+.footer-section__cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+}
+.social_button {
+    width: 2rem;
+    height: 2rem;
+    object-fit:scale-down;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+.social__section {
+    padding-bottom: 0;
+}
+.footer-section__item {
+    display: block;
+    justify-content: space-between;
+}
+.footer-section-item__email {
+    display: block;
+    margin-bottom: 11.2px;
+}
+.footer-section-item__name {
+    margin-top: 0;
+    padding-top: 2rem;
+    color: #335576;
+    align-items: start;
+}
+.footer-section-item__option{
+    color: #DB7A4E;
+    font-size: 0.7rem;
+}
+.footer-section-item__info {
+    text-decoration: none;
+    color: #335576;
+    font-size: 1rem;
+}
+
+/* get started page settings*/
+.get-started {
+    margin-top: 10rem;
+    height: fit-content;
+    width: 70vw;
+    margin-left: 10vw;
+    margin-bottom: 5rem;
+    padding: 5vw;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);  
+}
+label, input, select, textarea {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: #335576;
+}
+input, select, textarea {
+    width: 100%;
+}
+button {
+    width: 10rem;
+    height: 3rem;
+    background-color: #DB7A4E;
+    color:#F7F7F7;
+    font-size: 1.2rem;
+    font-weight: 100;
+    border: none;
+    cursor: pointer;
+    text-decoration:none;
+}
+
+/* mobile settings */
+@media (max-width: 480px) {
+    .main-destinations {
+        margin-top: 4rem;
+        height: fit-content;
+    }
+    .navigation-link__item {
+        padding-bottom: 0.5rem;
+        font-size: 0.8rem;
+        margin-right: 0.4rem;
+    }
+    .navigation-link {
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .navigation-bar__logo {
+        padding-top: 1rem;
+        padding-left: 0.5rem;
+        font-size: 1.5rem;
+        font-weight: 800;   
+    }
+    .navigation-bar {
+        height: 4rem;
+    }
+    .destinations__title {
+        font-size: 5rem;
+    }
+    .footer-section {
+        height: 6rem;
+    }
+    .footer-section__item {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-section__cards {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: end;
+    }
+    .social_button {
+        width: 0.7rem;
+        height: 0.7rem;
+        object-fit:scale-down;
+        padding-right: 0.5rem;
+        padding-bottom: 0;
+    }
+    .social__section {
+        padding-bottom: 0;
+    }
+    .footer-section-item__name {
+        font-size: 0.7rem;
+        margin-top: 0;
+        color: #335576;
+
+    }
+    .footer-section-item__option{
+        color: #DB7A4E;
+        font-size: 0.4rem;
+    }
+    .footer-section-item__info {
+        font-size: 0.3rem;
+        margin-bottom: 0;
+    }
+    p {
+        margin-bottom: 0;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .get-started {
+        margin-top: 10rem;
+        height: 60vh;
+        width: 70vw;
+        margin-left: 10vw;
+        margin-bottom: 12rem;
+        padding: 5vw;
+        border-radius: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);  
+    }
+}
+/* tablet settings */
+@media ((min-width: 481px) and (max-width: 1024px)){
+    .main-destinations {
+        margin-top: 4rem;
+        height: fit-content;
+    }
+    .navigation-bar {
+        height: 4rem;
+    }
+    .navigation-link__item {
+        padding-bottom: 0;
+        font-size: 1rem;
+        padding-right: 0.5rem;
+    }
+    .navigation-bar__logo {
+        padding-top: 1rem;
+        padding-left: 1rem;
+        font-size: 2rem;
+        font-weight: 800;   
+    }
+    .footer-section-item__info {
+        font-size: 0.7rem;
+    }
+}

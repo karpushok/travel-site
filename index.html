@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelSite - Home</title>
+    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="icon" type="image/png" href="./Assets/Icons/icon-airport.png">
+</head>
+<body>
+    <header>
+        <!-- navigation bar section -->
+        <div class="navigation-bar">
+            <a href="#" class="navigation-bar__logo">Travel Site</a>
+            <nav class="navigation-bar__links">
+                <ul class="navigation-link">
+                    <li><a href="#" class="navigation-link__item" id="home__page">Home</a></li>
+                    <li><a href="./pages/hawaii.html" class="navigation-link__item" id="Hawaii__page">Hawaii</a></li>
+                    <li><a href="./pages/iceland.html" class="navigation-link__item" id="Iceland__page">Iceland</a></li>
+                    <li><a href="./pages/greece.html" class="navigation-link__item" id="Greece__page">Greece</a></li>    
+                </ul>
+            </nav>
+        </div>
+        
+        <!-- hero section -->
+        <div class="header-hero">
+            <div class="header-hero__menu">
+                <h1 class="header-hero__title" id="hero_title">Travelling Comes With <br> Endless Discoveries</h1>
+                <p class="header-hero__description">Don't let your dreams be just dreams. Experience the world by booking a vacation with us now. </p>
+                <a href="./pages/get-started.html">
+                    <button class="header-hero__button" type="button">Get started</button>
+                </a>
+            </div>
+            <img src="./assets/images/hero.png" alt="image-hero" class="header-hero__image">
+        </div>
+    </header>
+
+    <!-- main sections - destinations cards -->
+    <main class="main-destinations">
+        <h2 class="destinations__title">Recommendations</h2>
+        <div class="destinations__items">
+            <a href="./pages/hawaii.html" class="destinations__cards hawaii__card"><p class="destinations__name">Hawaii</p></a>
+            <a href="./pages/iceland.html" class="destinations__cards iceland__card"><p class="destinations__name">Iceland</p></a>
+            <a href="./pages/greece.html" class="destinations__cards greece__card"><p class="destinations__name">Greece</p></a>
+        </div>
+    </main>
+
+    <!-- footer settings -->
+    <footer class="footer-section">
+        <div class="footer-section__cards">
+            <div class="footer-section__item">
+                <h2 class="footer-section-item__name">Contact</h2>
+                <div>
+                  <p class="footer-section-item__option">EMAIL</p>
+                  <a href="mailto:info@travelsite.com" class="footer-section-item__info footer-section-item__email">info@travelsite.com</a>
+                </div>
+            </div>
+            <div class="footer-section__item">
+                <h2 class="footer-section-item__name">Hours</h2>
+                <div>
+                  <p class="footer-section-item__option">MONDAY - FRIDAY</p>
+                  <p class="footer-section-item__info">9:00 AM - 5:00 PM</p> 
+                </div>
+            </div>
+            <div class="footer-section__item">
+                <p class="footer-section-item__option">SATURDAY</p>
+                <p class="footer-section-item__info">10:00 AM - 4:00 PM</p> 
+            </div>
+            <div class="footer-section__item">
+                <p class="footer-section-item__option">SUNDAY</p>
+                <p class="footer-section-item__info">Closed</p> 
+            </div>
+            <div class="footer-section__item social__section">
+                <h2 class="footer-section-item__name">Social</h2>
+                <div>
+                  <a href="https://www.instagram.com/"><img src="./assets/icons/icon-instagram.png" alt="instagram" class="social_button"></a>                
+                  <a href="https://www.facebook.com/"><img src="./assets/icons/icon-facebook.png" alt="facebook" class="social_button"></a>
+                  <a href="https://www.twitter.com/"><img src="./assets/icons/icon-twitter.png" alt="twitter" class="social_button"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
