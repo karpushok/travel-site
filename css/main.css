@@ -121,15 +121,15 @@ button {
     padding-right: 1.5rem;
 }
 .hawaii__card {
-    background-image: url(../Assets/Images/hawaii.jpg);
+    background-image: url(../assets/images/hawaii.jpg);
     background-size: cover;
 }
 .iceland__card {
-    background-image: url(../Assets/Images/iceland.jpg);
+    background-image: url(../assets/images/iceland.jpg);
     background-size: cover;
 }
 .greece__card {
-    background-image: url(../Assets/Images/greece.jpg);
+    background-image: url(../assets/images/greece.jpg);
     background-size: cover;
 }
 .destinations__items {
